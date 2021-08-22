@@ -33,6 +33,7 @@ body {
   overflow: hidden;
 }
 img {
+  display: block;
   width: 100%;
   mix-blend-mode: multiply;
 }
