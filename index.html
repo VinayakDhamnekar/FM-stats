@@ -31,37 +31,45 @@
   </head>
   <body>
     <main class="container">
-      <img
-        class="hero-img"
-        src="./images/image-header-mobile.jpg"
-        alt=""
-        role="presentation"
-      />
+      <div class="img-wrapper">
+        <img
+          class="hero-img"
+          srcset="
+            ./images/image-header-mobile.jpg  654w,
+            ./images/image-header-desktop.jpg 540w
+          "
+          sizes="(max-width:920px) 654px,540px"
+          src="./images/image-header-mobile.jpg"
+          alt=""
+          role="presentation"
+        />
+      </div>
 
-      <article>
-        <h1 class="heading">
-          Get <span>insights</span> that help your business grow.
-        </h1>
-        <p class="summary">
-          Discover the benefits of data analytics and make better decisions
-          regarding revenue, customer experience, and overall efficiency.
-        </p>
-        <footer class="art-footer">
-          <div class="card company">
-            <p class="number">10k+</p>
-            <p class="text">companies</p>
-          </div>
-          <div class="card template">
-            <p class="number">314</p>
-            <p class="text">templates</p>
-          </div>
-          <div class="card query">
-            <p class="number">12m+</p>
-            <p class="text">queries</p>
-          </div>
-        </footer>
-        <div class="blend"></div>
-      </article>
+      <div class="art-wrapper">
+        <article>
+          <h1 class="heading">
+            Get <span>insights</span> that help your business grow.
+          </h1>
+          <p class="summary">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+          <footer class="art-footer">
+            <div class="card company">
+              <p class="number">10k+</p>
+              <p class="text">companies</p>
+            </div>
+            <div class="card template">
+              <p class="number">314</p>
+              <p class="text">templates</p>
+            </div>
+            <div class="card query">
+              <p class="number">12m+</p>
+              <p class="text">queries</p>
+            </div>
+          </footer>
+        </article>
+      </div>
     </main>
     <!-- <footer class="main-footer">
   <div class="attribution">
