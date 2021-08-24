@@ -25,15 +25,21 @@ Users should be able to:
 
 ### Screenshot
 
+#### Desktop
+
 ![Desktop view](./screenshots/desktop-1440.png)
+
+#### Tablet
 ![tablet view](./screenshots/tab-768.png)
+
+#### Mobile
 ![mobile view](./screenshots/mobile-375.png)
 
 
 ### Links
 
-- Solution URL: [Github](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/VinayakDhamnekar/FM-stats)
+- Live Site URL: [Github page](https://vinayakdhamnekar.github.io/FM-stats/)
 
 ## My process
 
@@ -47,7 +53,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [IResponsive images MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
+- [Responsive images MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
 
 ## Author
 
